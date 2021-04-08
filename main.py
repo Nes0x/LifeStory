@@ -5,7 +5,7 @@ def game():
             "Patryk", "Zuzia", "Aleksandra", "Ola", "Nina"]
     rich = ["Bogaty/a", "Biedny/a"]
     deadInformation = ["apokalipsy", "wypadku samochodowego", "katastrofy lotniczej", "zestarzenia", "powód niezany"]
-    profession = ["Programista", "Budowlanieć", "Lekarz", "Kasjer", "Nauczyciel", "Architekt", "Pracownik obsługi klienta"]
+    profession = ["Programista", "Budowlaniec", "Lekarz", "Kasjer", "Nauczyciel", "Architekt", "Pracownik obsługi klienta"]
     birthday = ["Styczniu", "Lutym", "Marcu", "Kwietniu", "Maju", "Czerwcu", "Lipcu", "Sierpniu", "Wrześniu", "Październiku", "Listopadzie", "Grudniu"]
 
 
