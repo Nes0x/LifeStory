@@ -1,8 +1,7 @@
 import random
 
 def game():
-    name = ["Andrzej", "Kuba", "Janusz", "Adrian", "Artur", "Stasiek", "Marek", "Sławek", "Maciek", "Mirosław", "Karol",
-            "Patryk", "Zuzia", "Aleksandra", "Ola", "Nina"]
+    name = ["Andrzej", "Kuba", "Janusz", "Adrian", "Artur", "Stasiek", "Marek", "Sławek", "Maciek", "Mirosław", "Karol", "Patryk", "Zuzia", "Aleksandra", "Ola", "Nina"]
     rich = ["Bogaty/a", "Biedny/a"]
     deadInformation = ["apokalipsy", "wypadku samochodowego", "katastrofy lotniczej", "zestarzenia", "powód niezany"]
     profession = ["Programista", "Budowlaniec", "Lekarz", "Kasjer", "Nauczyciel", "Architekt", "Pracownik obsługi klienta"]
@@ -29,12 +28,7 @@ def game():
     else:
         money = random.randint(2800, 4000)
 
-    print("Masz na imie",
-          name[nameRand], "\nMasz", age, "lat/a", "\nJesteś",
-          rich[richRand], "\nUrodziłeś/aś się w", birthday[birthdayRand], "\nSwoją drugą połówkę znalazłeś/aś w wieku",
-          marry, "lat", "\nMiesięcznie zarabiasz:", money, "zł",
-          "\nPracujesz jako", profession[professionRand], "\nUmarłes/aś w wieku", dead, "lat", "w wyniku",
-          deadInformation[deadInformationRand])
+    print(f"Masz na imie {name[nameRand]} \nMasz {age} lat/a \nJesteś {rich[richRand]} \nUrodziłeś/aś się w {birthday[birthdayRand]} \nSwoją drugą połówkę znalazłeś/aś w wieku {marry} lat \nMiesięcznie zarabiasz {money} zł \nPracujesz jako {profession[professionRand]} \nUmarłes/aś w wieku {dead} lat w wyniku {deadInformation[deadInformationRand]}")
 
 
 while True:
