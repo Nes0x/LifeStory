@@ -31,9 +31,14 @@ Miesięcznie zarabiasz {money} zł
 Pracujesz jako {professionRand}
 Umarłes/aś w wieku {dead} lat w wyniku {deadInformationRand}""")
 
+
+
+game()
+
 while True:
-    gameInformation = input("Czy chcesz grać? Wpisz 1 jeśli chcesz przerwać, jeśli chcesz grać dalej kliknij enter")
+    gameInformation = input("Czy chcesz grać dalej? Wpisz 1 jeśli chcesz przerwać, jeśli chcesz grać dalej kliknij enter")
     if gameInformation == "1":
-        break
+    	print("Żegnaj!")
+    	break
     else:
-        game()
+    	game()
