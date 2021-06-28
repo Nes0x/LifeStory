@@ -37,7 +37,7 @@ game()
 
 while True:
     game_information = input("Czy chcesz grać dalej? Wpisz 1 jeśli chcesz przerwać, jeśli chcesz grać dalej kliknij enter")
-    if gameInformation == "1":
+    if game_information == "1":
     	print("Żegnaj!")
     	break
     else:
