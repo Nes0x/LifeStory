@@ -1,6 +1,6 @@
 # Opis 👨‍💻
 
-Program który wybiera dane a następnie wyświetla je na ekran.
+Program który wybiera dane a następnie wyświetla je na ekranie.
 
 # Jak uruchomić 🧐
 
